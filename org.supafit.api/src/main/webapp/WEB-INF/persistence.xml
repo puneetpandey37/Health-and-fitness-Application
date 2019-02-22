@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence xmlns="http://java.sun.com/xml/ns/persistence"
+	version="1.0">
+	<persistence-unit name="persistenceUnit"
+		transaction-type="RESOURCE_LOCAL">
+		<class>com.supafit.dao.user.model.User</class>
+		<class>com.supafit.dao.coach.model.CoachType</class>
+		<class>com.supafit.dao.coach.model.CoachMessages</class>
+		<class>com.supafit.dao.coach.model.Coach</class>
+		<class>com.supafit.dao.coach.model.CoachAddress</class>
+		<class>com.supafit.dao.coach.model.CoachPhoneNumber</class>
+		<class>com.supafit.dao.user.model.UserPhysic</class>
+		<class>com.supafit.dao.user.model.PhoneNumber</class>
+		<class>com.supafit.dao.location.model.Address</class>
+		<class>com.supafit.dao.location.model.Country</class>
+		<class>com.supafit.dao.location.model.State</class>
+		<class>com.supafit.dao.location.model.City</class>
+		<class>com.supafit.dao.location.model.Locality</class>
+		<class>com.supafit.dao.program.model.Program</class>
+		<class>com.supafit.dao.program.model.ProgramCategory</class>
+		<class>com.supafit.dao.program.model.ProgramType</class>
+		<class>com.supafit.dao.food.model.FoodItems</class>
+		<class>com.supafit.dao.food.model.FoodItemMeasure</class>
+		<class>com.supafit.dao.food.model.FoodTypes</class>
+		<class>com.supafit.dao.food.model.MealTimings</class>
+		<class>com.supafit.dao.plan.model.MealTemplate</class>
+		<class>com.supafit.dao.plan.model.WorkoutTemplate</class>
+		<class>com.supafit.dao.exercise.model.Exercise</class>
+		<class>com.supafit.dao.exercise.model.ExerciseCategory</class>
+		<class>com.supafit.dao.exercise.model.Timing</class>
+		<class>com.supafit.dao.questions.model.QuestionTypes</class>
+		<class>com.supafit.dao.questions.model.AnswerTypes</class>
+		<class>com.supafit.dao.questions.model.AnswerOptions</class>
+		<class>com.supafit.dao.questions.model.Questions</class>
+		<class>com.supafit.dao.questions.model.Answers</class>
+		<class>com.supafit.dao.program.model.ProgramSubscription</class>
+		<class>com.supafit.dao.meal.model.UserMeals</class>
+		<class>com.supafit.dao.meal.model.Meals</class>
+		<class>com.supafit.dao.food.model.FoodPreferences</class>
+		<class>com.supafit.dao.medicalcondition.model.MedicalCondition</class>
+		<class>com.supafit.dao.user.model.UserMedicalCondition</class>
+		<class>com.supafit.dao.goal.model.FitnessGoal</class>
+		<class>com.supafit.dao.user.model.UserFitnessGoal</class>
+		<class>com.supafit.dao.user.model.UserFoodPreferences</class>
+		<class>com.supafit.dao.summary.model.ActivitySummary</class>
+		<class>com.supafit.dao.workout.model.Workout</class>
+		<class>com.supafit.dao.workout.model.UserWorkout</class>
+		<class>com.supafit.dao.plan.model.MealPlans</class>
+		<class>com.supafit.dao.plan.model.MealPlanDetail</class>
+		<class>com.supafit.dao.plan.model.MealPlanStatusDetail</class>
+		<class>com.supafit.dao.plan.model.WorkoutPlans</class>
+		<class>com.supafit.dao.plan.model.WorkoutPlanDetail</class>
+		<class>com.supafit.dao.plan.model.WorkoutPlanStatusDetail</class>
+		<class>com.supafit.dao.plan.model.WorkoutPlanStatusDetail</class>
+		
+	</persistence-unit>
+	
+</persistence>

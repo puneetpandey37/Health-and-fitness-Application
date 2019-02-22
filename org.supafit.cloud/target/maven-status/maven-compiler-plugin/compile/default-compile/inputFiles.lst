@@ -1,0 +1,10 @@
+E:\Workspaces\Supafit\Workspace1\org.supafit.master\org.supafit.cloud\src\main\java\com\supafit\cloud\s3\access\AmazonS3Service.java
+E:\Workspaces\Supafit\Workspace1\org.supafit.master\org.supafit.cloud\src\main\java\com\supafit\cloud\s3\model\S3Model.java
+E:\Workspaces\Supafit\Workspace1\org.supafit.master\org.supafit.cloud\src\main\java\com\supafit\cloud\s3\model\S3Options.java
+E:\Workspaces\Supafit\Workspace1\org.supafit.master\org.supafit.cloud\src\main\java\com\supafit\cloud\exception\S3UploadException.java
+E:\Workspaces\Supafit\Workspace1\org.supafit.master\org.supafit.cloud\src\main\java\com\supafit\cloud\exception\S3AccessException.java
+E:\Workspaces\Supafit\Workspace1\org.supafit.master\org.supafit.cloud\src\main\java\com\supafit\cloud\s3\model\FileContentPacking.java
+E:\Workspaces\Supafit\Workspace1\org.supafit.master\org.supafit.cloud\src\main\java\com\supafit\cloud\s3\model\S3MetaData.java
+E:\Workspaces\Supafit\Workspace1\org.supafit.master\org.supafit.cloud\src\main\java\com\supafit\cloud\s3\util\PresignedURLUtility.java
+E:\Workspaces\Supafit\Workspace1\org.supafit.master\org.supafit.cloud\src\main\java\com\supafit\cloud\s3\model\GenerationParams.java
+E:\Workspaces\Supafit\Workspace1\org.supafit.master\org.supafit.cloud\src\main\java\com\supafit\cloud\s3\access\PresignedS3URLService.java

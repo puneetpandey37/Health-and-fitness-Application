@@ -1,0 +1,35 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>supafit</groupId>
+		<artifactId>org.supafit.master</artifactId>
+		<version>1.0.0</version>
+	</parent>
+	<artifactId>org.supafit.common</artifactId>
+	<name>org.supafit.common</name>
+	<description>org.supafit.common</description>
+
+	<dependencies>
+		
+		<dependency>
+			<groupId>supafit</groupId>
+			<artifactId>org.supafit.cloud</artifactId>
+			<version>1.0.0</version>
+		</dependency>
+		
+		<dependency>
+			<groupId>supafit</groupId>
+			<artifactId>org.supafit.dao</artifactId>
+			<version>1.0.0</version>
+		</dependency>
+		
+		<dependency>
+			<groupId>supafit</groupId>
+			<artifactId>org.supafit.dto</artifactId>
+			<version>1.0.0</version>
+		</dependency>
+
+	</dependencies>
+
+</project>

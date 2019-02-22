@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="supafit-api">
+        <wb-resource deploy-path="/" source-path="/target/m2e-wtp/web-resources"/>
+        <wb-resource deploy-path="/" source-path="/src/main/webapp" tag="defaultRootSource"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/java"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/resources"/>
+        <dependent-module archiveName="org.supafit.bo-1.0.0.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/org.supafit.bo/org.supafit.bo">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="org.supafit.common-1.0.0.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/org.supafit.common/org.supafit.common">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="org.supafit.cloud-1.0.0.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/org.supafit.cloud/org.supafit.cloud">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="org.supafit.dao-1.0.0.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/org.supafit.dao/org.supafit.dao">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="org.supafit.dto-1.0.0.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/org.supafit.dto/org.supafit.dto">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <property name="java-output-path" value="/org.supafit.api/target/classes"/>
+        <property name="context-root" value="supafit-api"/>
+    </wb-module>
+</project-modules>

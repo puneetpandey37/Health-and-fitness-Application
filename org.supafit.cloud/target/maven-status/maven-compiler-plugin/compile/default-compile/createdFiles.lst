@@ -1,0 +1,10 @@
+com\supafit\cloud\s3\model\FileContentPacking.class
+com\supafit\cloud\s3\model\GenerationParams.class
+com\supafit\cloud\s3\model\S3MetaData.class
+com\supafit\cloud\s3\access\AmazonS3Service.class
+com\supafit\cloud\exception\S3AccessException.class
+com\supafit\cloud\exception\S3UploadException.class
+com\supafit\cloud\s3\access\PresignedS3URLService.class
+com\supafit\cloud\s3\model\S3Options.class
+com\supafit\cloud\s3\model\S3Model.class
+com\supafit\cloud\s3\util\PresignedURLUtility.class
